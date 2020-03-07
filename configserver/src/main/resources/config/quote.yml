@@ -1,0 +1,16 @@
+server:
+  port: 7071
+
+spring:
+  datasource:
+    hikari:
+      connectionTimeout: 20000
+      maximumPoolSize: 5
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+      generate-ddl: true
+      show-sql: true
+
+quote:
+  index: 1
